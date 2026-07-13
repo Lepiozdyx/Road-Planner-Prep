@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE7115A62E6F181600BFCB5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7115A52E6F181600BFCB5A /* LaunchScreen.storyboard */; };
+		FA6F10033005323E00CACF6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6F0FDB3005323E00CACF6E /* Assets.xcassets */; };
+		FA6F10043005323E00CACF6E /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FF13005323E00CACF6E /* StatisticsView.swift */; };
+		FA6F10053005323E00CACF6E /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FED3005323E00CACF6E /* ProgressBarView.swift */; };
+		FA6F10063005323E00CACF6E /* PlacesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FF53005323E00CACF6E /* PlacesTabView.swift */; };
+		FA6F10073005323E00CACF6E /* AppShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FE83005323E00CACF6E /* AppShell.swift */; };
+		FA6F10083005323E00CACF6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F10013005323E00CACF6E /* ContentView.swift */; };
+		FA6F10093005323E00CACF6E /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FFF3005323E00CACF6E /* RootTabView.swift */; };
+		FA6F100A3005323E00CACF6E /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FEC3005323E00CACF6E /* PrimaryButton.swift */; };
+		FA6F100B3005323E00CACF6E /* ChecklistTypeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FE33005323E00CACF6E /* ChecklistTypeCardView.swift */; };
+		FA6F100C3005323E00CACF6E /* CreateTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FFB3005323E00CACF6E /* CreateTripView.swift */; };
+		FA6F100D3005323E00CACF6E /* TripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FFD3005323E00CACF6E /* TripsView.swift */; };
+		FA6F100E3005323E00CACF6E /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FDF3005323E00CACF6E /* AddItemView.swift */; };
+		FA6F100F3005323E00CACF6E /* EditTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FF43005323E00CACF6E /* EditTripView.swift */; };
+		FA6F10103005323E00CACF6E /* AddStopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FF33005323E00CACF6E /* AddStopView.swift */; };
+		FA6F10113005323E00CACF6E /* RouteTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FF73005323E00CACF6E /* RouteTabView.swift */; };
+		FA6F10123005323E00CACF6E /* MonthlyBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FEF3005323E00CACF6E /* MonthlyBarChartView.swift */; };
+		FA6F10133005323E00CACF6E /* TripChecklistTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FF83005323E00CACF6E /* TripChecklistTabView.swift */; };
+		FA6F10143005323E00CACF6E /* CreateChecklistTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FE43005323E00CACF6E /* CreateChecklistTypeView.swift */; };
+		FA6F10153005323E00CACF6E /* AppTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FE93005323E00CACF6E /* AppTextField.swift */; };
+		FA6F10163005323E00CACF6E /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FDA3005323E00CACF6E /* AppTheme.swift */; };
+		FA6F10173005323E00CACF6E /* ChecklistRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FE13005323E00CACF6E /* ChecklistRowView.swift */; };
+		FA6F10183005323E00CACF6E /* ChecklistType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FD53005323E00CACF6E /* ChecklistType.swift */; };
+		FA6F10193005323E00CACF6E /* ChecklistDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FE03005323E00CACF6E /* ChecklistDetailView.swift */; };
+		FA6F101A3005323E00CACF6E /* TripCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FFC3005323E00CACF6E /* TripCardView.swift */; };
+		FA6F101B3005323E00CACF6E /* InfoBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FEB3005323E00CACF6E /* InfoBannerView.swift */; };
+		FA6F101C3005323E00CACF6E /* ChecklistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FE23005323E00CACF6E /* ChecklistsView.swift */; };
+		FA6F101D3005323E00CACF6E /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FD63005323E00CACF6E /* Place.swift */; };
+		FA6F101E3005323E00CACF6E /* TripsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FDD3005323E00CACF6E /* TripsViewModel.swift */; };
+		FA6F101F3005323E00CACF6E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FE63005323E00CACF6E /* OnboardingView.swift */; };
+		FA6F10203005323E00CACF6E /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FD43005323E00CACF6E /* ChecklistItem.swift */; };
+		FA6F10213005323E00CACF6E /* RouteStopCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FF63005323E00CACF6E /* RouteStopCardView.swift */; };
+		FA6F10223005323E00CACF6E /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FD83005323E00CACF6E /* Trip.swift */; };
+		FA6F10233005323E00CACF6E /* RankingRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FF03005323E00CACF6E /* RankingRowView.swift */; };
+		FA6F10243005323E00CACF6E /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FD73005323E00CACF6E /* Stop.swift */; };
+		FA6F10253005323E00CACF6E /* TripDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FF93005323E00CACF6E /* TripDetailView.swift */; };
+		FA6F10263005323E00CACF6E /* ChipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FEA3005323E00CACF6E /* ChipView.swift */; };
+		FA6F10273005323E00CACF6E /* AppDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FD23005323E00CACF6E /* AppDetails.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE71156C2E6F168000BFCB5A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CE7115342E6F0AB000BFCB5A /* AppTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7115A42E6F181600BFCB5A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEF3187B2E72A659004E27D7 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		FA6F0FD23005323E00CACF6E /* AppDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetails.swift; sourceTree = "<group>"; };
+		FA6F0FD43005323E00CACF6E /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		FA6F0FD53005323E00CACF6E /* ChecklistType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistType.swift; sourceTree = "<group>"; };
+		FA6F0FD63005323E00CACF6E /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		FA6F0FD73005323E00CACF6E /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
+		FA6F0FD83005323E00CACF6E /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		FA6F0FDA3005323E00CACF6E /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		FA6F0FDB3005323E00CACF6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA6F0FDD3005323E00CACF6E /* TripsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsViewModel.swift; sourceTree = "<group>"; };
+		FA6F0FDF3005323E00CACF6E /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		FA6F0FE03005323E00CACF6E /* ChecklistDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistDetailView.swift; sourceTree = "<group>"; };
+		FA6F0FE13005323E00CACF6E /* ChecklistRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistRowView.swift; sourceTree = "<group>"; };
+		FA6F0FE23005323E00CACF6E /* ChecklistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistsView.swift; sourceTree = "<group>"; };
+		FA6F0FE33005323E00CACF6E /* ChecklistTypeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistTypeCardView.swift; sourceTree = "<group>"; };
+		FA6F0FE43005323E00CACF6E /* CreateChecklistTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChecklistTypeView.swift; sourceTree = "<group>"; };
+		FA6F0FE63005323E00CACF6E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		FA6F0FE83005323E00CACF6E /* AppShell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShell.swift; sourceTree = "<group>"; };
+		FA6F0FE93005323E00CACF6E /* AppTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextField.swift; sourceTree = "<group>"; };
+		FA6F0FEA3005323E00CACF6E /* ChipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipView.swift; sourceTree = "<group>"; };
+		FA6F0FEB3005323E00CACF6E /* InfoBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoBannerView.swift; sourceTree = "<group>"; };
+		FA6F0FEC3005323E00CACF6E /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		FA6F0FED3005323E00CACF6E /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		FA6F0FEF3005323E00CACF6E /* MonthlyBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyBarChartView.swift; sourceTree = "<group>"; };
+		FA6F0FF03005323E00CACF6E /* RankingRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingRowView.swift; sourceTree = "<group>"; };
+		FA6F0FF13005323E00CACF6E /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		FA6F0FF33005323E00CACF6E /* AddStopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStopView.swift; sourceTree = "<group>"; };
+		FA6F0FF43005323E00CACF6E /* EditTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTripView.swift; sourceTree = "<group>"; };
+		FA6F0FF53005323E00CACF6E /* PlacesTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTabView.swift; sourceTree = "<group>"; };
+		FA6F0FF63005323E00CACF6E /* RouteStopCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteStopCardView.swift; sourceTree = "<group>"; };
+		FA6F0FF73005323E00CACF6E /* RouteTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteTabView.swift; sourceTree = "<group>"; };
+		FA6F0FF83005323E00CACF6E /* TripChecklistTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripChecklistTabView.swift; sourceTree = "<group>"; };
+		FA6F0FF93005323E00CACF6E /* TripDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailView.swift; sourceTree = "<group>"; };
+		FA6F0FFB3005323E00CACF6E /* CreateTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTripView.swift; sourceTree = "<group>"; };
+		FA6F0FFC3005323E00CACF6E /* TripCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCardView.swift; sourceTree = "<group>"; };
+		FA6F0FFD3005323E00CACF6E /* TripsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsView.swift; sourceTree = "<group>"; };
+		FA6F0FFF3005323E00CACF6E /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		FA6F10013005323E00CACF6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CE7115362E6F0AB000BFCB5A /* AppTemplate */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AppTemplate;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE7115312E6F0AB000BFCB5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE71152B2E6F0AB000BFCB5A = {
+			isa = PBXGroup;
+			children = (
+				FA6F10023005323E00CACF6E /* PlannerForThe Road */,
+				CE7115A52E6F181600BFCB5A /* LaunchScreen.storyboard */,
+				CE7115362E6F0AB000BFCB5A /* AppTemplate */,
+				CE7115352E6F0AB000BFCB5A /* Products */,
+				CEF3187A2E72A659004E27D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE7115352E6F0AB000BFCB5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE7115342E6F0AB000BFCB5A /* AppTemplate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF3187A2E72A659004E27D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEF3187B2E72A659004E27D7 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA6F0FD33005323E00CACF6E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F0FD23005323E00CACF6E /* AppDetails.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		FA6F0FD93005323E00CACF6E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F0FD43005323E00CACF6E /* ChecklistItem.swift */,
+				FA6F0FD53005323E00CACF6E /* ChecklistType.swift */,
+				FA6F0FD63005323E00CACF6E /* Place.swift */,
+				FA6F0FD73005323E00CACF6E /* Stop.swift */,
+				FA6F0FD83005323E00CACF6E /* Trip.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA6F0FDC3005323E00CACF6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F0FDA3005323E00CACF6E /* AppTheme.swift */,
+				FA6F0FDB3005323E00CACF6E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FA6F0FDE3005323E00CACF6E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F0FDD3005323E00CACF6E /* TripsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FA6F0FE53005323E00CACF6E /* Checklists */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F0FDF3005323E00CACF6E /* AddItemView.swift */,
+				FA6F0FE03005323E00CACF6E /* ChecklistDetailView.swift */,
+				FA6F0FE13005323E00CACF6E /* ChecklistRowView.swift */,
+				FA6F0FE23005323E00CACF6E /* ChecklistsView.swift */,
+				FA6F0FE33005323E00CACF6E /* ChecklistTypeCardView.swift */,
+				FA6F0FE43005323E00CACF6E /* CreateChecklistTypeView.swift */,
+			);
+			path = Checklists;
+			sourceTree = "<group>";
+		};
+		FA6F0FE73005323E00CACF6E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F0FE63005323E00CACF6E /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		FA6F0FEE3005323E00CACF6E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F0FE83005323E00CACF6E /* AppShell.swift */,
+				FA6F0FE93005323E00CACF6E /* AppTextField.swift */,
+				FA6F0FEA3005323E00CACF6E /* ChipView.swift */,
+				FA6F0FEB3005323E00CACF6E /* InfoBannerView.swift */,
+				FA6F0FEC3005323E00CACF6E /* PrimaryButton.swift */,
+				FA6F0FED3005323E00CACF6E /* ProgressBarView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		FA6F0FF23005323E00CACF6E /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F0FEF3005323E00CACF6E /* MonthlyBarChartView.swift */,
+				FA6F0FF03005323E00CACF6E /* RankingRowView.swift */,
+				FA6F0FF13005323E00CACF6E /* StatisticsView.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		FA6F0FFA3005323E00CACF6E /* TripDetail */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F0FF33005323E00CACF6E /* AddStopView.swift */,
+				FA6F0FF43005323E00CACF6E /* EditTripView.swift */,
+				FA6F0FF53005323E00CACF6E /* PlacesTabView.swift */,
+				FA6F0FF63005323E00CACF6E /* RouteStopCardView.swift */,
+				FA6F0FF73005323E00CACF6E /* RouteTabView.swift */,
+				FA6F0FF83005323E00CACF6E /* TripChecklistTabView.swift */,
+				FA6F0FF93005323E00CACF6E /* TripDetailView.swift */,
+			);
+			path = TripDetail;
+			sourceTree = "<group>";
+		};
+		FA6F0FFE3005323E00CACF6E /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F0FFB3005323E00CACF6E /* CreateTripView.swift */,
+				FA6F0FFC3005323E00CACF6E /* TripCardView.swift */,
+				FA6F0FFD3005323E00CACF6E /* TripsView.swift */,
+			);
+			path = Trips;
+			sourceTree = "<group>";
+		};
+		FA6F10003005323E00CACF6E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F0FE53005323E00CACF6E /* Checklists */,
+				FA6F0FE73005323E00CACF6E /* Onboarding */,
+				FA6F0FEE3005323E00CACF6E /* Shared */,
+				FA6F0FF23005323E00CACF6E /* Statistics */,
+				FA6F0FFA3005323E00CACF6E /* TripDetail */,
+				FA6F0FFE3005323E00CACF6E /* Trips */,
+				FA6F0FFF3005323E00CACF6E /* RootTabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA6F10023005323E00CACF6E /* PlannerForThe Road */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F0FD33005323E00CACF6E /* Managers */,
+				FA6F0FD93005323E00CACF6E /* Models */,
+				FA6F0FDC3005323E00CACF6E /* Resources */,
+				FA6F0FDE3005323E00CACF6E /* ViewModels */,
+				FA6F10003005323E00CACF6E /* Views */,
+				FA6F10013005323E00CACF6E /* ContentView.swift */,
+			);
+			path = "PlannerForThe Road";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE7115332E6F0AB000BFCB5A /* AppTemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE71154B2E6F0AB400BFCB5A /* Build configuration list for PBXNativeTarget "AppTemplate" */;
+			buildPhases = (
+				CE7115302E6F0AB000BFCB5A /* Sources */,
+				CE7115312E6F0AB000BFCB5A /* Frameworks */,
+				CE7115322E6F0AB000BFCB5A /* Resources */,
+				CE71156C2E6F168000BFCB5A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CE7115362E6F0AB000BFCB5A /* AppTemplate */,
+			);
+			name = AppTemplate;
+			packageProductDependencies = (
+			);
+			productName = AppTemplate;
+			productReference = CE7115342E6F0AB000BFCB5A /* AppTemplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE71152C2E6F0AB000BFCB5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					CE7115332E6F0AB000BFCB5A = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = CE71152F2E6F0AB000BFCB5A /* Build configuration list for PBXProject "AppTemplate" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE71152B2E6F0AB000BFCB5A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CE7115352E6F0AB000BFCB5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE7115332E6F0AB000BFCB5A /* AppTemplate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE7115322E6F0AB000BFCB5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6F10033005323E00CACF6E /* Assets.xcassets in Resources */,
+				CE7115A62E6F181600BFCB5A /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE7115302E6F0AB000BFCB5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6F10043005323E00CACF6E /* StatisticsView.swift in Sources */,
+				FA6F10053005323E00CACF6E /* ProgressBarView.swift in Sources */,
+				FA6F10063005323E00CACF6E /* PlacesTabView.swift in Sources */,
+				FA6F10073005323E00CACF6E /* AppShell.swift in Sources */,
+				FA6F10083005323E00CACF6E /* ContentView.swift in Sources */,
+				FA6F10093005323E00CACF6E /* RootTabView.swift in Sources */,
+				FA6F100A3005323E00CACF6E /* PrimaryButton.swift in Sources */,
+				FA6F100B3005323E00CACF6E /* ChecklistTypeCardView.swift in Sources */,
+				FA6F100C3005323E00CACF6E /* CreateTripView.swift in Sources */,
+				FA6F100D3005323E00CACF6E /* TripsView.swift in Sources */,
+				FA6F100E3005323E00CACF6E /* AddItemView.swift in Sources */,
+				FA6F100F3005323E00CACF6E /* EditTripView.swift in Sources */,
+				FA6F10103005323E00CACF6E /* AddStopView.swift in Sources */,
+				FA6F10113005323E00CACF6E /* RouteTabView.swift in Sources */,
+				FA6F10123005323E00CACF6E /* MonthlyBarChartView.swift in Sources */,
+				FA6F10133005323E00CACF6E /* TripChecklistTabView.swift in Sources */,
+				FA6F10143005323E00CACF6E /* CreateChecklistTypeView.swift in Sources */,
+				FA6F10153005323E00CACF6E /* AppTextField.swift in Sources */,
+				FA6F10163005323E00CACF6E /* AppTheme.swift in Sources */,
+				FA6F10173005323E00CACF6E /* ChecklistRowView.swift in Sources */,
+				FA6F10183005323E00CACF6E /* ChecklistType.swift in Sources */,
+				FA6F10193005323E00CACF6E /* ChecklistDetailView.swift in Sources */,
+				FA6F101A3005323E00CACF6E /* TripCardView.swift in Sources */,
+				FA6F101B3005323E00CACF6E /* InfoBannerView.swift in Sources */,
+				FA6F101C3005323E00CACF6E /* ChecklistsView.swift in Sources */,
+				FA6F101D3005323E00CACF6E /* Place.swift in Sources */,
+				FA6F101E3005323E00CACF6E /* TripsViewModel.swift in Sources */,
+				FA6F101F3005323E00CACF6E /* OnboardingView.swift in Sources */,
+				FA6F10203005323E00CACF6E /* ChecklistItem.swift in Sources */,
+				FA6F10213005323E00CACF6E /* RouteStopCardView.swift in Sources */,
+				FA6F10223005323E00CACF6E /* Trip.swift in Sources */,
+				FA6F10233005323E00CACF6E /* RankingRowView.swift in Sources */,
+				FA6F10243005323E00CACF6E /* Stop.swift in Sources */,
+				FA6F10253005323E00CACF6E /* TripDetailView.swift in Sources */,
+				FA6F10263005323E00CACF6E /* ChipView.swift in Sources */,
+				FA6F10273005323E00CACF6E /* AppDetails.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE7115A52E6F181600BFCB5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7115A42E6F181600BFCB5A /* LaunchScreen.storyboard */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE7115492E6F0AB400BFCB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = /Users/user/Documents/Sources/AppTemplate/Entitlements.entitlements;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE71154A2E6F0AB400BFCB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = /Users/user/Documents/Sources/AppTemplate/Entitlements.entitlements;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE71154C2E6F0AB400BFCB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TZCUKDMG3L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Road Planner&Prep";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to the camera to take photos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to the photo library to add photos.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roadplanner.prep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE71154D2E6F0AB400BFCB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TZCUKDMG3L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Road Planner&Prep";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to the camera to take photos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to the photo library to add photos.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roadplanner.prep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE71152F2E6F0AB000BFCB5A /* Build configuration list for PBXProject "AppTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7115492E6F0AB400BFCB5A /* Debug */,
+				CE71154A2E6F0AB400BFCB5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE71154B2E6F0AB400BFCB5A /* Build configuration list for PBXNativeTarget "AppTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE71154C2E6F0AB400BFCB5A /* Debug */,
+				CE71154D2E6F0AB400BFCB5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE71152C2E6F0AB000BFCB5A /* Project object */;
+}
