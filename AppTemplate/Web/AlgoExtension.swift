@@ -12,23 +12,8 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
     }
 
     func routeLaunch() {
-        if WebManager.isPolicyAccepted {
-            onGameStart()
-            return
-        }
-
-        if !WebManager.isInternetAvailable() {
-            showOfflineScreen()
-            return
-        }
-
-        let urlString = formulateRequest(initialUrl: WebManager.initialURL)
-        guard let url = WebManager.policyURL(from: urlString) else {
-            showOfflineScreen()
-            return
-        }
-
-        openPolicyWebView(url: url)
+        onGameStart()
+        return
     }
 
     func onPolicyAccepted() {
