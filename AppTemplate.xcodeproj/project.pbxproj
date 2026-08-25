@@ -8,43 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		CE7115A62E6F181600BFCB5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7115A52E6F181600BFCB5A /* LaunchScreen.storyboard */; };
-		FA6F10033005323E00CACF6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6F0FDB3005323E00CACF6E /* Assets.xcassets */; };
-		FA6F10043005323E00CACF6E /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FF13005323E00CACF6E /* StatisticsView.swift */; };
-		FA6F10053005323E00CACF6E /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FED3005323E00CACF6E /* ProgressBarView.swift */; };
-		FA6F10063005323E00CACF6E /* PlacesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FF53005323E00CACF6E /* PlacesTabView.swift */; };
-		FA6F10073005323E00CACF6E /* AppShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FE83005323E00CACF6E /* AppShell.swift */; };
-		FA6F10083005323E00CACF6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F10013005323E00CACF6E /* ContentView.swift */; };
-		FA6F10093005323E00CACF6E /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FFF3005323E00CACF6E /* RootTabView.swift */; };
-		FA6F100A3005323E00CACF6E /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FEC3005323E00CACF6E /* PrimaryButton.swift */; };
-		FA6F100B3005323E00CACF6E /* ChecklistTypeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FE33005323E00CACF6E /* ChecklistTypeCardView.swift */; };
-		FA6F100C3005323E00CACF6E /* CreateTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FFB3005323E00CACF6E /* CreateTripView.swift */; };
-		FA6F100D3005323E00CACF6E /* TripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FFD3005323E00CACF6E /* TripsView.swift */; };
-		FA6F100E3005323E00CACF6E /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FDF3005323E00CACF6E /* AddItemView.swift */; };
-		FA6F100F3005323E00CACF6E /* EditTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FF43005323E00CACF6E /* EditTripView.swift */; };
-		FA6F10103005323E00CACF6E /* AddStopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FF33005323E00CACF6E /* AddStopView.swift */; };
-		FA6F10113005323E00CACF6E /* RouteTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FF73005323E00CACF6E /* RouteTabView.swift */; };
-		FA6F10123005323E00CACF6E /* MonthlyBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FEF3005323E00CACF6E /* MonthlyBarChartView.swift */; };
-		FA6F10133005323E00CACF6E /* TripChecklistTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FF83005323E00CACF6E /* TripChecklistTabView.swift */; };
-		FA6F10143005323E00CACF6E /* CreateChecklistTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FE43005323E00CACF6E /* CreateChecklistTypeView.swift */; };
-		FA6F10153005323E00CACF6E /* AppTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FE93005323E00CACF6E /* AppTextField.swift */; };
-		FA6F10163005323E00CACF6E /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FDA3005323E00CACF6E /* AppTheme.swift */; };
-		FA6F10173005323E00CACF6E /* ChecklistRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FE13005323E00CACF6E /* ChecklistRowView.swift */; };
-		FA6F10183005323E00CACF6E /* ChecklistType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FD53005323E00CACF6E /* ChecklistType.swift */; };
-		FA6F10193005323E00CACF6E /* ChecklistDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FE03005323E00CACF6E /* ChecklistDetailView.swift */; };
-		FA6F101A3005323E00CACF6E /* TripCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FFC3005323E00CACF6E /* TripCardView.swift */; };
-		FA6F101B3005323E00CACF6E /* InfoBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FEB3005323E00CACF6E /* InfoBannerView.swift */; };
-		FA6F101C3005323E00CACF6E /* ChecklistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FE23005323E00CACF6E /* ChecklistsView.swift */; };
-		FA6F101D3005323E00CACF6E /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FD63005323E00CACF6E /* Place.swift */; };
-		FA6F101E3005323E00CACF6E /* TripsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FDD3005323E00CACF6E /* TripsViewModel.swift */; };
-		FA6F101F3005323E00CACF6E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FE63005323E00CACF6E /* OnboardingView.swift */; };
-		FA6F10203005323E00CACF6E /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FD43005323E00CACF6E /* ChecklistItem.swift */; };
-		FA6F10213005323E00CACF6E /* RouteStopCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FF63005323E00CACF6E /* RouteStopCardView.swift */; };
-		FA6F10223005323E00CACF6E /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FD83005323E00CACF6E /* Trip.swift */; };
-		FA6F10233005323E00CACF6E /* RankingRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FF03005323E00CACF6E /* RankingRowView.swift */; };
-		FA6F10243005323E00CACF6E /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FD73005323E00CACF6E /* Stop.swift */; };
-		FA6F10253005323E00CACF6E /* TripDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FF93005323E00CACF6E /* TripDetailView.swift */; };
-		FA6F10263005323E00CACF6E /* ChipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FEA3005323E00CACF6E /* ChipView.swift */; };
-		FA6F10273005323E00CACF6E /* AppDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F0FD23005323E00CACF6E /* AppDetails.swift */; };
+		FA4C271E303DF14800700821 /* TripChecklistTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C2713303DF14800700821 /* TripChecklistTabView.swift */; };
+		FA4C271F303DF14800700821 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C26FA303DF14800700821 /* AddItemView.swift */; };
+		FA4C2720303DF14800700821 /* ChecklistDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C26FB303DF14800700821 /* ChecklistDetailView.swift */; };
+		FA4C2721303DF14800700821 /* ChecklistTypeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C26FE303DF14800700821 /* ChecklistTypeCardView.swift */; };
+		FA4C2722303DF14800700821 /* RankingRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C270B303DF14800700821 /* RankingRowView.swift */; };
+		FA4C2723303DF14800700821 /* TripCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C2717303DF14800700821 /* TripCardView.swift */; };
+		FA4C2724303DF14800700821 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C2701303DF14800700821 /* OnboardingView.swift */; };
+		FA4C2725303DF14800700821 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C2708303DF14800700821 /* ProgressBarView.swift */; };
+		FA4C2726303DF14800700821 /* InfoBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C2706303DF14800700821 /* InfoBannerView.swift */; };
+		FA4C2727303DF14800700821 /* MonthlyBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C270A303DF14800700821 /* MonthlyBarChartView.swift */; };
+		FA4C2728303DF14800700821 /* ChecklistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C26FD303DF14800700821 /* ChecklistsView.swift */; };
+		FA4C2729303DF14800700821 /* TripsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C26F8303DF14800700821 /* TripsViewModel.swift */; };
+		FA4C272A303DF14800700821 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C271A303DF14800700821 /* RootTabView.swift */; };
+		FA4C272B303DF14800700821 /* RouteStopCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C2711303DF14800700821 /* RouteStopCardView.swift */; };
+		FA4C272C303DF14800700821 /* ChipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C2705303DF14800700821 /* ChipView.swift */; };
+		FA4C272D303DF14800700821 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C270C303DF14800700821 /* StatisticsView.swift */; };
+		FA4C272E303DF14800700821 /* RouteTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C2712303DF14800700821 /* RouteTabView.swift */; };
+		FA4C272F303DF14800700821 /* CreateChecklistTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C26FF303DF14800700821 /* CreateChecklistTypeView.swift */; };
+		FA4C2730303DF14800700821 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C2707303DF14800700821 /* PrimaryButton.swift */; };
+		FA4C2731303DF14800700821 /* AppTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C2704303DF14800700821 /* AppTextField.swift */; };
+		FA4C2732303DF14800700821 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C26F3303DF14800700821 /* Trip.swift */; };
+		FA4C2733303DF14800700821 /* ChecklistType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C26F0303DF14800700821 /* ChecklistType.swift */; };
+		FA4C2734303DF14800700821 /* AppDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C26ED303DF14800700821 /* AppDetails.swift */; };
+		FA4C2735303DF14800700821 /* CreateTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C2716303DF14800700821 /* CreateTripView.swift */; };
+		FA4C2736303DF14800700821 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C26EF303DF14800700821 /* ChecklistItem.swift */; };
+		FA4C2737303DF14800700821 /* EditTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C270F303DF14800700821 /* EditTripView.swift */; };
+		FA4C2738303DF14800700821 /* TripDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C2714303DF14800700821 /* TripDetailView.swift */; };
+		FA4C2739303DF14800700821 /* TripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C2718303DF14800700821 /* TripsView.swift */; };
+		FA4C273A303DF14800700821 /* AddStopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C270E303DF14800700821 /* AddStopView.swift */; };
+		FA4C273B303DF14800700821 /* PlacesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C2710303DF14800700821 /* PlacesTabView.swift */; };
+		FA4C273C303DF14800700821 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C26F1303DF14800700821 /* Place.swift */; };
+		FA4C273D303DF14800700821 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C26F5303DF14800700821 /* AppTheme.swift */; };
+		FA4C273E303DF14800700821 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C26F2303DF14800700821 /* Stop.swift */; };
+		FA4C273F303DF14800700821 /* AppShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C2703303DF14800700821 /* AppShell.swift */; };
+		FA4C2740303DF14800700821 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C271C303DF14800700821 /* ContentView.swift */; };
+		FA4C2741303DF14800700821 /* ChecklistRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C26FC303DF14800700821 /* ChecklistRowView.swift */; };
+		FA4C2742303DF14800700821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4C26F6303DF14800700821 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,43 +64,43 @@
 		CE7115342E6F0AB000BFCB5A /* AppTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7115A42E6F181600BFCB5A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEF3187B2E72A659004E27D7 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
-		FA6F0FD23005323E00CACF6E /* AppDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetails.swift; sourceTree = "<group>"; };
-		FA6F0FD43005323E00CACF6E /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
-		FA6F0FD53005323E00CACF6E /* ChecklistType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistType.swift; sourceTree = "<group>"; };
-		FA6F0FD63005323E00CACF6E /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
-		FA6F0FD73005323E00CACF6E /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
-		FA6F0FD83005323E00CACF6E /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
-		FA6F0FDA3005323E00CACF6E /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
-		FA6F0FDB3005323E00CACF6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FA6F0FDD3005323E00CACF6E /* TripsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsViewModel.swift; sourceTree = "<group>"; };
-		FA6F0FDF3005323E00CACF6E /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
-		FA6F0FE03005323E00CACF6E /* ChecklistDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistDetailView.swift; sourceTree = "<group>"; };
-		FA6F0FE13005323E00CACF6E /* ChecklistRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistRowView.swift; sourceTree = "<group>"; };
-		FA6F0FE23005323E00CACF6E /* ChecklistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistsView.swift; sourceTree = "<group>"; };
-		FA6F0FE33005323E00CACF6E /* ChecklistTypeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistTypeCardView.swift; sourceTree = "<group>"; };
-		FA6F0FE43005323E00CACF6E /* CreateChecklistTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChecklistTypeView.swift; sourceTree = "<group>"; };
-		FA6F0FE63005323E00CACF6E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		FA6F0FE83005323E00CACF6E /* AppShell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShell.swift; sourceTree = "<group>"; };
-		FA6F0FE93005323E00CACF6E /* AppTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextField.swift; sourceTree = "<group>"; };
-		FA6F0FEA3005323E00CACF6E /* ChipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipView.swift; sourceTree = "<group>"; };
-		FA6F0FEB3005323E00CACF6E /* InfoBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoBannerView.swift; sourceTree = "<group>"; };
-		FA6F0FEC3005323E00CACF6E /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
-		FA6F0FED3005323E00CACF6E /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
-		FA6F0FEF3005323E00CACF6E /* MonthlyBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyBarChartView.swift; sourceTree = "<group>"; };
-		FA6F0FF03005323E00CACF6E /* RankingRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingRowView.swift; sourceTree = "<group>"; };
-		FA6F0FF13005323E00CACF6E /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
-		FA6F0FF33005323E00CACF6E /* AddStopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStopView.swift; sourceTree = "<group>"; };
-		FA6F0FF43005323E00CACF6E /* EditTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTripView.swift; sourceTree = "<group>"; };
-		FA6F0FF53005323E00CACF6E /* PlacesTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTabView.swift; sourceTree = "<group>"; };
-		FA6F0FF63005323E00CACF6E /* RouteStopCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteStopCardView.swift; sourceTree = "<group>"; };
-		FA6F0FF73005323E00CACF6E /* RouteTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteTabView.swift; sourceTree = "<group>"; };
-		FA6F0FF83005323E00CACF6E /* TripChecklistTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripChecklistTabView.swift; sourceTree = "<group>"; };
-		FA6F0FF93005323E00CACF6E /* TripDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailView.swift; sourceTree = "<group>"; };
-		FA6F0FFB3005323E00CACF6E /* CreateTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTripView.swift; sourceTree = "<group>"; };
-		FA6F0FFC3005323E00CACF6E /* TripCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCardView.swift; sourceTree = "<group>"; };
-		FA6F0FFD3005323E00CACF6E /* TripsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsView.swift; sourceTree = "<group>"; };
-		FA6F0FFF3005323E00CACF6E /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
-		FA6F10013005323E00CACF6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA4C26ED303DF14800700821 /* AppDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetails.swift; sourceTree = "<group>"; };
+		FA4C26EF303DF14800700821 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		FA4C26F0303DF14800700821 /* ChecklistType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistType.swift; sourceTree = "<group>"; };
+		FA4C26F1303DF14800700821 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		FA4C26F2303DF14800700821 /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
+		FA4C26F3303DF14800700821 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		FA4C26F5303DF14800700821 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		FA4C26F6303DF14800700821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA4C26F8303DF14800700821 /* TripsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsViewModel.swift; sourceTree = "<group>"; };
+		FA4C26FA303DF14800700821 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		FA4C26FB303DF14800700821 /* ChecklistDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistDetailView.swift; sourceTree = "<group>"; };
+		FA4C26FC303DF14800700821 /* ChecklistRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistRowView.swift; sourceTree = "<group>"; };
+		FA4C26FD303DF14800700821 /* ChecklistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistsView.swift; sourceTree = "<group>"; };
+		FA4C26FE303DF14800700821 /* ChecklistTypeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistTypeCardView.swift; sourceTree = "<group>"; };
+		FA4C26FF303DF14800700821 /* CreateChecklistTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChecklistTypeView.swift; sourceTree = "<group>"; };
+		FA4C2701303DF14800700821 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		FA4C2703303DF14800700821 /* AppShell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShell.swift; sourceTree = "<group>"; };
+		FA4C2704303DF14800700821 /* AppTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextField.swift; sourceTree = "<group>"; };
+		FA4C2705303DF14800700821 /* ChipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipView.swift; sourceTree = "<group>"; };
+		FA4C2706303DF14800700821 /* InfoBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoBannerView.swift; sourceTree = "<group>"; };
+		FA4C2707303DF14800700821 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		FA4C2708303DF14800700821 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		FA4C270A303DF14800700821 /* MonthlyBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyBarChartView.swift; sourceTree = "<group>"; };
+		FA4C270B303DF14800700821 /* RankingRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingRowView.swift; sourceTree = "<group>"; };
+		FA4C270C303DF14800700821 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		FA4C270E303DF14800700821 /* AddStopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStopView.swift; sourceTree = "<group>"; };
+		FA4C270F303DF14800700821 /* EditTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTripView.swift; sourceTree = "<group>"; };
+		FA4C2710303DF14800700821 /* PlacesTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTabView.swift; sourceTree = "<group>"; };
+		FA4C2711303DF14800700821 /* RouteStopCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteStopCardView.swift; sourceTree = "<group>"; };
+		FA4C2712303DF14800700821 /* RouteTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteTabView.swift; sourceTree = "<group>"; };
+		FA4C2713303DF14800700821 /* TripChecklistTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripChecklistTabView.swift; sourceTree = "<group>"; };
+		FA4C2714303DF14800700821 /* TripDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailView.swift; sourceTree = "<group>"; };
+		FA4C2716303DF14800700821 /* CreateTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTripView.swift; sourceTree = "<group>"; };
+		FA4C2717303DF14800700821 /* TripCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCardView.swift; sourceTree = "<group>"; };
+		FA4C2718303DF14800700821 /* TripsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsView.swift; sourceTree = "<group>"; };
+		FA4C271A303DF14800700821 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		FA4C271C303DF14800700821 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -125,7 +125,7 @@
 		CE71152B2E6F0AB000BFCB5A = {
 			isa = PBXGroup;
 			children = (
-				FA6F10023005323E00CACF6E /* PlannerForThe Road */,
+				FA4C271D303DF14800700821 /* PlannerForThe Road */,
 				CE7115A52E6F181600BFCB5A /* LaunchScreen.storyboard */,
 				CE7115362E6F0AB000BFCB5A /* AppTemplate */,
 				CE7115352E6F0AB000BFCB5A /* Products */,
@@ -149,134 +149,134 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FA6F0FD33005323E00CACF6E /* Managers */ = {
+		FA4C26EE303DF14800700821 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				FA6F0FD23005323E00CACF6E /* AppDetails.swift */,
+				FA4C26ED303DF14800700821 /* AppDetails.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
 		};
-		FA6F0FD93005323E00CACF6E /* Models */ = {
+		FA4C26F4303DF14800700821 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				FA6F0FD43005323E00CACF6E /* ChecklistItem.swift */,
-				FA6F0FD53005323E00CACF6E /* ChecklistType.swift */,
-				FA6F0FD63005323E00CACF6E /* Place.swift */,
-				FA6F0FD73005323E00CACF6E /* Stop.swift */,
-				FA6F0FD83005323E00CACF6E /* Trip.swift */,
+				FA4C26EF303DF14800700821 /* ChecklistItem.swift */,
+				FA4C26F0303DF14800700821 /* ChecklistType.swift */,
+				FA4C26F1303DF14800700821 /* Place.swift */,
+				FA4C26F2303DF14800700821 /* Stop.swift */,
+				FA4C26F3303DF14800700821 /* Trip.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		FA6F0FDC3005323E00CACF6E /* Resources */ = {
+		FA4C26F7303DF14800700821 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FA6F0FDA3005323E00CACF6E /* AppTheme.swift */,
-				FA6F0FDB3005323E00CACF6E /* Assets.xcassets */,
+				FA4C26F5303DF14800700821 /* AppTheme.swift */,
+				FA4C26F6303DF14800700821 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		FA6F0FDE3005323E00CACF6E /* ViewModels */ = {
+		FA4C26F9303DF14800700821 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				FA6F0FDD3005323E00CACF6E /* TripsViewModel.swift */,
+				FA4C26F8303DF14800700821 /* TripsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		FA6F0FE53005323E00CACF6E /* Checklists */ = {
+		FA4C2700303DF14800700821 /* Checklists */ = {
 			isa = PBXGroup;
 			children = (
-				FA6F0FDF3005323E00CACF6E /* AddItemView.swift */,
-				FA6F0FE03005323E00CACF6E /* ChecklistDetailView.swift */,
-				FA6F0FE13005323E00CACF6E /* ChecklistRowView.swift */,
-				FA6F0FE23005323E00CACF6E /* ChecklistsView.swift */,
-				FA6F0FE33005323E00CACF6E /* ChecklistTypeCardView.swift */,
-				FA6F0FE43005323E00CACF6E /* CreateChecklistTypeView.swift */,
+				FA4C26FA303DF14800700821 /* AddItemView.swift */,
+				FA4C26FB303DF14800700821 /* ChecklistDetailView.swift */,
+				FA4C26FC303DF14800700821 /* ChecklistRowView.swift */,
+				FA4C26FD303DF14800700821 /* ChecklistsView.swift */,
+				FA4C26FE303DF14800700821 /* ChecklistTypeCardView.swift */,
+				FA4C26FF303DF14800700821 /* CreateChecklistTypeView.swift */,
 			);
 			path = Checklists;
 			sourceTree = "<group>";
 		};
-		FA6F0FE73005323E00CACF6E /* Onboarding */ = {
+		FA4C2702303DF14800700821 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				FA6F0FE63005323E00CACF6E /* OnboardingView.swift */,
+				FA4C2701303DF14800700821 /* OnboardingView.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
-		FA6F0FEE3005323E00CACF6E /* Shared */ = {
+		FA4C2709303DF14800700821 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				FA6F0FE83005323E00CACF6E /* AppShell.swift */,
-				FA6F0FE93005323E00CACF6E /* AppTextField.swift */,
-				FA6F0FEA3005323E00CACF6E /* ChipView.swift */,
-				FA6F0FEB3005323E00CACF6E /* InfoBannerView.swift */,
-				FA6F0FEC3005323E00CACF6E /* PrimaryButton.swift */,
-				FA6F0FED3005323E00CACF6E /* ProgressBarView.swift */,
+				FA4C2703303DF14800700821 /* AppShell.swift */,
+				FA4C2704303DF14800700821 /* AppTextField.swift */,
+				FA4C2705303DF14800700821 /* ChipView.swift */,
+				FA4C2706303DF14800700821 /* InfoBannerView.swift */,
+				FA4C2707303DF14800700821 /* PrimaryButton.swift */,
+				FA4C2708303DF14800700821 /* ProgressBarView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		FA6F0FF23005323E00CACF6E /* Statistics */ = {
+		FA4C270D303DF14800700821 /* Statistics */ = {
 			isa = PBXGroup;
 			children = (
-				FA6F0FEF3005323E00CACF6E /* MonthlyBarChartView.swift */,
-				FA6F0FF03005323E00CACF6E /* RankingRowView.swift */,
-				FA6F0FF13005323E00CACF6E /* StatisticsView.swift */,
+				FA4C270A303DF14800700821 /* MonthlyBarChartView.swift */,
+				FA4C270B303DF14800700821 /* RankingRowView.swift */,
+				FA4C270C303DF14800700821 /* StatisticsView.swift */,
 			);
 			path = Statistics;
 			sourceTree = "<group>";
 		};
-		FA6F0FFA3005323E00CACF6E /* TripDetail */ = {
+		FA4C2715303DF14800700821 /* TripDetail */ = {
 			isa = PBXGroup;
 			children = (
-				FA6F0FF33005323E00CACF6E /* AddStopView.swift */,
-				FA6F0FF43005323E00CACF6E /* EditTripView.swift */,
-				FA6F0FF53005323E00CACF6E /* PlacesTabView.swift */,
-				FA6F0FF63005323E00CACF6E /* RouteStopCardView.swift */,
-				FA6F0FF73005323E00CACF6E /* RouteTabView.swift */,
-				FA6F0FF83005323E00CACF6E /* TripChecklistTabView.swift */,
-				FA6F0FF93005323E00CACF6E /* TripDetailView.swift */,
+				FA4C270E303DF14800700821 /* AddStopView.swift */,
+				FA4C270F303DF14800700821 /* EditTripView.swift */,
+				FA4C2710303DF14800700821 /* PlacesTabView.swift */,
+				FA4C2711303DF14800700821 /* RouteStopCardView.swift */,
+				FA4C2712303DF14800700821 /* RouteTabView.swift */,
+				FA4C2713303DF14800700821 /* TripChecklistTabView.swift */,
+				FA4C2714303DF14800700821 /* TripDetailView.swift */,
 			);
 			path = TripDetail;
 			sourceTree = "<group>";
 		};
-		FA6F0FFE3005323E00CACF6E /* Trips */ = {
+		FA4C2719303DF14800700821 /* Trips */ = {
 			isa = PBXGroup;
 			children = (
-				FA6F0FFB3005323E00CACF6E /* CreateTripView.swift */,
-				FA6F0FFC3005323E00CACF6E /* TripCardView.swift */,
-				FA6F0FFD3005323E00CACF6E /* TripsView.swift */,
+				FA4C2716303DF14800700821 /* CreateTripView.swift */,
+				FA4C2717303DF14800700821 /* TripCardView.swift */,
+				FA4C2718303DF14800700821 /* TripsView.swift */,
 			);
 			path = Trips;
 			sourceTree = "<group>";
 		};
-		FA6F10003005323E00CACF6E /* Views */ = {
+		FA4C271B303DF14800700821 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FA6F0FE53005323E00CACF6E /* Checklists */,
-				FA6F0FE73005323E00CACF6E /* Onboarding */,
-				FA6F0FEE3005323E00CACF6E /* Shared */,
-				FA6F0FF23005323E00CACF6E /* Statistics */,
-				FA6F0FFA3005323E00CACF6E /* TripDetail */,
-				FA6F0FFE3005323E00CACF6E /* Trips */,
-				FA6F0FFF3005323E00CACF6E /* RootTabView.swift */,
+				FA4C2700303DF14800700821 /* Checklists */,
+				FA4C2702303DF14800700821 /* Onboarding */,
+				FA4C2709303DF14800700821 /* Shared */,
+				FA4C270D303DF14800700821 /* Statistics */,
+				FA4C2715303DF14800700821 /* TripDetail */,
+				FA4C2719303DF14800700821 /* Trips */,
+				FA4C271A303DF14800700821 /* RootTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		FA6F10023005323E00CACF6E /* PlannerForThe Road */ = {
+		FA4C271D303DF14800700821 /* PlannerForThe Road */ = {
 			isa = PBXGroup;
 			children = (
-				FA6F0FD33005323E00CACF6E /* Managers */,
-				FA6F0FD93005323E00CACF6E /* Models */,
-				FA6F0FDC3005323E00CACF6E /* Resources */,
-				FA6F0FDE3005323E00CACF6E /* ViewModels */,
-				FA6F10003005323E00CACF6E /* Views */,
-				FA6F10013005323E00CACF6E /* ContentView.swift */,
+				FA4C26EE303DF14800700821 /* Managers */,
+				FA4C26F4303DF14800700821 /* Models */,
+				FA4C26F7303DF14800700821 /* Resources */,
+				FA4C26F9303DF14800700821 /* ViewModels */,
+				FA4C271B303DF14800700821 /* Views */,
+				FA4C271C303DF14800700821 /* ContentView.swift */,
 			);
 			path = "PlannerForThe Road";
 			sourceTree = "<group>";
@@ -348,7 +348,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA6F10033005323E00CACF6E /* Assets.xcassets in Resources */,
+				FA4C2742303DF14800700821 /* Assets.xcassets in Resources */,
 				CE7115A62E6F181600BFCB5A /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,42 +360,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA6F10043005323E00CACF6E /* StatisticsView.swift in Sources */,
-				FA6F10053005323E00CACF6E /* ProgressBarView.swift in Sources */,
-				FA6F10063005323E00CACF6E /* PlacesTabView.swift in Sources */,
-				FA6F10073005323E00CACF6E /* AppShell.swift in Sources */,
-				FA6F10083005323E00CACF6E /* ContentView.swift in Sources */,
-				FA6F10093005323E00CACF6E /* RootTabView.swift in Sources */,
-				FA6F100A3005323E00CACF6E /* PrimaryButton.swift in Sources */,
-				FA6F100B3005323E00CACF6E /* ChecklistTypeCardView.swift in Sources */,
-				FA6F100C3005323E00CACF6E /* CreateTripView.swift in Sources */,
-				FA6F100D3005323E00CACF6E /* TripsView.swift in Sources */,
-				FA6F100E3005323E00CACF6E /* AddItemView.swift in Sources */,
-				FA6F100F3005323E00CACF6E /* EditTripView.swift in Sources */,
-				FA6F10103005323E00CACF6E /* AddStopView.swift in Sources */,
-				FA6F10113005323E00CACF6E /* RouteTabView.swift in Sources */,
-				FA6F10123005323E00CACF6E /* MonthlyBarChartView.swift in Sources */,
-				FA6F10133005323E00CACF6E /* TripChecklistTabView.swift in Sources */,
-				FA6F10143005323E00CACF6E /* CreateChecklistTypeView.swift in Sources */,
-				FA6F10153005323E00CACF6E /* AppTextField.swift in Sources */,
-				FA6F10163005323E00CACF6E /* AppTheme.swift in Sources */,
-				FA6F10173005323E00CACF6E /* ChecklistRowView.swift in Sources */,
-				FA6F10183005323E00CACF6E /* ChecklistType.swift in Sources */,
-				FA6F10193005323E00CACF6E /* ChecklistDetailView.swift in Sources */,
-				FA6F101A3005323E00CACF6E /* TripCardView.swift in Sources */,
-				FA6F101B3005323E00CACF6E /* InfoBannerView.swift in Sources */,
-				FA6F101C3005323E00CACF6E /* ChecklistsView.swift in Sources */,
-				FA6F101D3005323E00CACF6E /* Place.swift in Sources */,
-				FA6F101E3005323E00CACF6E /* TripsViewModel.swift in Sources */,
-				FA6F101F3005323E00CACF6E /* OnboardingView.swift in Sources */,
-				FA6F10203005323E00CACF6E /* ChecklistItem.swift in Sources */,
-				FA6F10213005323E00CACF6E /* RouteStopCardView.swift in Sources */,
-				FA6F10223005323E00CACF6E /* Trip.swift in Sources */,
-				FA6F10233005323E00CACF6E /* RankingRowView.swift in Sources */,
-				FA6F10243005323E00CACF6E /* Stop.swift in Sources */,
-				FA6F10253005323E00CACF6E /* TripDetailView.swift in Sources */,
-				FA6F10263005323E00CACF6E /* ChipView.swift in Sources */,
-				FA6F10273005323E00CACF6E /* AppDetails.swift in Sources */,
+				FA4C271E303DF14800700821 /* TripChecklistTabView.swift in Sources */,
+				FA4C271F303DF14800700821 /* AddItemView.swift in Sources */,
+				FA4C2720303DF14800700821 /* ChecklistDetailView.swift in Sources */,
+				FA4C2721303DF14800700821 /* ChecklistTypeCardView.swift in Sources */,
+				FA4C2722303DF14800700821 /* RankingRowView.swift in Sources */,
+				FA4C2723303DF14800700821 /* TripCardView.swift in Sources */,
+				FA4C2724303DF14800700821 /* OnboardingView.swift in Sources */,
+				FA4C2725303DF14800700821 /* ProgressBarView.swift in Sources */,
+				FA4C2726303DF14800700821 /* InfoBannerView.swift in Sources */,
+				FA4C2727303DF14800700821 /* MonthlyBarChartView.swift in Sources */,
+				FA4C2728303DF14800700821 /* ChecklistsView.swift in Sources */,
+				FA4C2729303DF14800700821 /* TripsViewModel.swift in Sources */,
+				FA4C272A303DF14800700821 /* RootTabView.swift in Sources */,
+				FA4C272B303DF14800700821 /* RouteStopCardView.swift in Sources */,
+				FA4C272C303DF14800700821 /* ChipView.swift in Sources */,
+				FA4C272D303DF14800700821 /* StatisticsView.swift in Sources */,
+				FA4C272E303DF14800700821 /* RouteTabView.swift in Sources */,
+				FA4C272F303DF14800700821 /* CreateChecklistTypeView.swift in Sources */,
+				FA4C2730303DF14800700821 /* PrimaryButton.swift in Sources */,
+				FA4C2731303DF14800700821 /* AppTextField.swift in Sources */,
+				FA4C2732303DF14800700821 /* Trip.swift in Sources */,
+				FA4C2733303DF14800700821 /* ChecklistType.swift in Sources */,
+				FA4C2734303DF14800700821 /* AppDetails.swift in Sources */,
+				FA4C2735303DF14800700821 /* CreateTripView.swift in Sources */,
+				FA4C2736303DF14800700821 /* ChecklistItem.swift in Sources */,
+				FA4C2737303DF14800700821 /* EditTripView.swift in Sources */,
+				FA4C2738303DF14800700821 /* TripDetailView.swift in Sources */,
+				FA4C2739303DF14800700821 /* TripsView.swift in Sources */,
+				FA4C273A303DF14800700821 /* AddStopView.swift in Sources */,
+				FA4C273B303DF14800700821 /* PlacesTabView.swift in Sources */,
+				FA4C273C303DF14800700821 /* Place.swift in Sources */,
+				FA4C273D303DF14800700821 /* AppTheme.swift in Sources */,
+				FA4C273E303DF14800700821 /* Stop.swift in Sources */,
+				FA4C273F303DF14800700821 /* AppShell.swift in Sources */,
+				FA4C2740303DF14800700821 /* ContentView.swift in Sources */,
+				FA4C2741303DF14800700821 /* ChecklistRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,7 +546,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Road Planner&Prep";
-				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to the camera to take photos.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to the photo library to add photos.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -558,7 +557,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.3;
+				MARKETING_VERSION = 1.1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.roadplanner.prep;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -583,7 +582,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Road Planner&Prep";
-				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to the camera to take photos.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to the photo library to add photos.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -595,7 +593,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.3;
+				MARKETING_VERSION = 1.1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.roadplanner.prep;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

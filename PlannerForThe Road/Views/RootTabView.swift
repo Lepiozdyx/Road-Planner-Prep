@@ -21,9 +21,9 @@ struct RootTabView: View {
             }
             .safeAreaInset(edge: .bottom) {
                 BottomTabBar(selectedTab: $selectedTab)
-                    .ignoresSafeArea(.keyboard, edges: .bottom)
             }
         }
+        .ignoresSafeArea(.keyboard)
     }
 }
 
